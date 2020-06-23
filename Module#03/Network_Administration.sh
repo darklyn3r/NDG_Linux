@@ -42,7 +42,7 @@ read
 ;;
 4) clear
 echo "..:CONSULTA DE IP:.."
-echo "Ingrese la interfaz: "
+echo "Ingrese la interfaz (ens33, eth0, wlan0): " 
 read eth
 eco -e "Su IP es: "
 ipconfig $eth | grep "inet"
