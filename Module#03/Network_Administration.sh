@@ -6,7 +6,7 @@ do
 clear 
 echo "..:ADMINISTRACION DE RED:.."
 echo " "
-echo "1) Hacer ping"
+eco "1) Hacer ping"
 echo "2) Trazar ruta"
 echo "3) Cambiar IP"
 echo "4) Consultar IP"
@@ -36,7 +36,7 @@ echo "Ingrese la interfaz:"
 read eth
 echo "Ingrese la nueva IP:"
 read ip
-ifconfig $eth $ip
+ipconfig $eth $ip
 echo "La nueva IP de la interface $eth es $ip"
 read
 ;;
@@ -50,11 +50,11 @@ read
 ;;
 5)clear
 echo "..:CAMBIAR MASCARA DE RED:.."
-echo "Ingrese la interfaz: "
+eco "Ingrese la interfaz: "
 read eth
 echo "Ingrese la nueva mascara:"
 read masc
-ifconfig $eth netmask $masc
+ipconfig $eth netmask $masc
 echo "La nueva mascara de la interfaz $eth es $masc"
 ;;
 6) clear 
@@ -65,7 +65,7 @@ tcpdump
 ;;
 0) 
 echo "FIN"
-echo "Precione ENTER para salir"
+eco "Precione ENTER para salir"
 read
 break
 ;;
