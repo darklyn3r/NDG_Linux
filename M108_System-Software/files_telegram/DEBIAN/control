@@ -1,0 +1,8 @@
+Package: amd64
+Priority: optional
+Section: misc
+Maintainer: https://hexagone.academy
+Architecture: all
+Version: 1.0
+Depends: 
+Description: Aplicación FAKE enfocada AA la mensajería instantánea, el envío de varios archivos y la comunicación en masa. 

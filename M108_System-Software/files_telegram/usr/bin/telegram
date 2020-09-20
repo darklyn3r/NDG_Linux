@@ -1,0 +1,9 @@
+#!/bin/sh
+#cd /usr/bin
+#touch telegram
+#echo "echo "Este es un programa, distribuido por Canonical!!"" > telegram
+#https://ubuntulife.wordpress.com/2010/08/05/crear-un-paquete-deb-manualmente/
+
+echo "Este es un programa, distribuido por Canonical!!"
+#chmod +x telegram
+
