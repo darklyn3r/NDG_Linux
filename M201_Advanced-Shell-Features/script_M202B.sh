@@ -1,17 +1,17 @@
 #!/bin/bash
 
-# Declaramos la función
-Funcion () {
+# Declaramos la funcion
+agenda01 () {
     FECHA_HORA=$(date)
     sleep 4
-    echo "La tarea $1 se encuentra ahora completa - $FECHA_HORA"
+    echo "La tarea $1 esta completa - $FECHA_HORA"
 }
 
 # Primera tarea
-Funcion desayuno
+agenda01 desayuno
 
 # Segunda tarea
-Funcion almuerzo
+agenda01 almuerzo
 
 # Tercera tarea 
-Funcion cena
+agenda01 cena
