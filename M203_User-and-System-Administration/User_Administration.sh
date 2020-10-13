@@ -8,7 +8,8 @@ fi
 
 while [ "$opcion" != "0" ]
 do
-clear
+
+#clear
 echo
 echo "..:ADMINISTRACION DE USUARIOS:.."
 echo "---------------------------------"
@@ -30,6 +31,7 @@ echo "Crear usuario"
 echo "Inserta el nombre del usuario nuevo:"
 read user
 adduser $user
+clear
 ;;
 
 2) clear
@@ -37,6 +39,7 @@ echo "Cambiar la contraseña a un usuario"
 echo "Inserta el nombre del usuario para cambiarle la contraseña"
 read user2
 passwd $user2
+clear
 ;;
 
 3) clear
@@ -44,6 +47,7 @@ echo "Crear grupo"
 echo "Inserta el nombre del grupo"
 read grupo
 groupadd $grupo
+clear
 ;;
 
 4) clear
@@ -53,6 +57,7 @@ read user3
 echo "Inserta el nombre del grupo"
 read grupo2
 sudo addgroup $user3 $grupo2 
+clear
 ;;
 
 5) clear
@@ -60,18 +65,21 @@ echo "Ver datos de un usuario"
 echo "Inserta el nombre del usuario"
 read user5
 id $user5
+clear
 ;;
 
 6) clear
 echo "Dame el nombre del usuario"
 read nombre
 deluser $nombre
+clear
 ;;
 
 7) clear
 echo"Dame el nombre del grupo: "
 read grupo
 delgroup $grupo
+clear
 ;;
 
 0) 
