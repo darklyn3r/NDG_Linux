@@ -12,14 +12,14 @@ clear
 echo
 echo "..:ADMINISTRACION DE USUARIOS:.."
 echo "---------------------------------"
-echo " 1) Crear un usuario"
-echo " 2) Crear la contraseña a un usuario"
-echo " 3) Crear grupo"
-echo " 4) Añadir un usuario a un grupo"
-echo " 5) Ver datos de un usuario"
-echo " 6) Borrar un usuario"
-echo " 7) Borrar un grupo"
-echo " 0) Salir"
+echo "1) Crear un usuario"
+echo "2) Crear la contraseña a un usuario"
+echo "3) Crear grupo"
+echo "4) Añadir un usuario a un grupo"
+echo "5) Ver datos de un usuario"
+echo "6) Borrar un usuario"
+echo "7) Borrar un grupo"
+echo "0) Salir"
 echo -n "SELECCIONE LA OPCION DESEADA:"
 
 read opcion
